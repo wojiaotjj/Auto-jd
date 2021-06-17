@@ -187,8 +187,8 @@ jobs:
           SERVERLESS_PLATFORM_VENDOR: tencent
           TENCENT_SECRET_ID: ${{ secrets.AKIDoRnsiLhma7NM3UeX8TWIm0xd293g27vR }}
           TENCENT_SECRET_KEY: ${{ secrets.GFxOYQ5TZOwDDwNXQ1LPBgtpUTBbleGa }}
-          TENCENT_REGION: ${{ secrets.SCF_REGION }}
-          TENCENT_FUNCTION_NAME: ${{ secrets.TENCENT_FUNCTION_NAME }}
+          TENCENT_REGION: ${{ secrets.ap-shanghai }}
+          TENCENT_FUNCTION_NAME: ${{ secrets.jd }}
         
       - name: "部署失败通知"
         run: node action.js
